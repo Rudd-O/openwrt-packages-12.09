@@ -12,7 +12,7 @@ PKG_VERSION:=5.1.3
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=ftp://ftp.gmplib.org/pub/$(PKG_NAME)-$(PKG_VERSION)/
+PKG_SOURCE_URL:=https://gmplib.org/download/gmp
 PKG_MD5SUM:=a082867cbca5e898371a97bb27b31fea
 
 PKG_BUILD_PARALLEL:=1
