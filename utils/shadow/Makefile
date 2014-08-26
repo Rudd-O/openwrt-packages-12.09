@@ -34,6 +34,10 @@ CONFIGURE_ARGS += \
 	--without-tcb \
 	--without-nscd
 
+include $(INCLUDE_DIR)/nls.mk
+
+PKG_BUILD_DEPENDS:=libintl-full
+
 define Package/shadow
   SECTION:=utils
   CATEGORY:=Utilities
